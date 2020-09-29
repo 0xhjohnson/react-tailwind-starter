@@ -9,10 +9,7 @@ module.exports = merge(common, {
     contentBase: path.join(__dirname, 'public'),
     compress: true,
     hot: true,
-    historyApiFallback: true,
-    proxy: {
-      '/api': 'http://localhost:3000'
-    }
+    historyApiFallback: true
   },
   module: {
     rules: [

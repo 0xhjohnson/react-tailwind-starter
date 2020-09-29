@@ -7,7 +7,7 @@
   "author": "0xhjohnson <0xhjohnson@protonmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack-dev-server --open --config webpack.development.js --port $PORT",
+    "dev": "webpack-dev-server --open --config webpack.development.js",
     "build": "webpack --config webpack.production.js",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
